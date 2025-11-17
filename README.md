@@ -10,7 +10,7 @@ The KingKong platform is designed to provide developers and businesses with a ce
 
 1. AI Task Execution & Playground
 
-    `AI Playground: A dedicated interface (PlaygroundPage.jsx) for users to test prompts and queries against the underlying AI models.`
+    `AI Playground: A dedicated interface for users to test prompts and queries against the underlying AI models.`
 
     `Prompt Templates: Support for saving and utilizing pre-defined prompt templates to streamline common tasks (e.g., "Find users by country," "Count users by status").`
 
@@ -20,7 +20,7 @@ The KingKong platform is designed to provide developers and businesses with a ce
 
 2. Internal Functions and Tooling
 
-    `Internal Functions Management: Complete CRUD (Create, Read, Update, Delete) functionality for managing custom, user-defined "Internal Functions" (InternalFunctionsPage.jsx, internalFunctionRoutes.js).`
+    `Internal Functions Management: Complete CRUD (Create, Read, Update, Delete) functionality for managing custom, user-defined "Internal Functions" .`
 
     `Function Execution: API support for running these internal functions (/internal-functions/:projectId/functions/:functionId/run), suggesting they are tools the AI can call or that can be triggered manually.`
 
@@ -28,11 +28,11 @@ The KingKong platform is designed to provide developers and businesses with a ce
 
 3. Serverless Deployment
 
-    `Serverless Function Creation: Dedicated routes (serverlessRoutes.js) for creating and deploying serverless functions, likely to host external or more complex user logic on the platform.`
+    `Serverless Function Creation: Dedicated routes for creating and deploying serverless functions, likely to host external or more complex user logic on the platform.`
 
 4. Logging and Monitoring
 
-    `Centralized Logging Dashboard: A comprehensive LogsPage.jsx for viewing all system, function, and AI execution logs.`
+    `Centralized Logging Dashboard: A comprehensive for viewing all system, function, and AI execution logs.`
 
     `Advanced Filtering: Capabilities to filter logs by severity level, associated project, specific date, and content search term.`
 
@@ -42,9 +42,9 @@ The KingKong platform is designed to provide developers and businesses with a ce
 
     `Project Scoping: All core features (Internal Functions, Logs) are organized and accessed within specific user-created projects.`
 
-    `Usage Metrics: A dedicated route (usageMetricsRoutes.js) to retrieve and display usage metrics, allowing users to monitor their consumption of platform resources.`
+    `Usage Metrics: A dedicated route to retrieve and display usage metrics, allowing users to monitor their consumption of platform resources.`
 
-    `Plan and Billing: API access to different pricing plans (planRoutes.js), indicating support for managing subscription tiers and features.`
+    `Plan and Billing: API access to different pricing plans, indicating support for managing subscription tiers and features.`
 
 ## Getting Started
 
