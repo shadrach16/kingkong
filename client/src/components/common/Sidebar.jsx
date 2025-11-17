@@ -31,7 +31,6 @@ const navIcons = {
 
 const navItems = [
   { path: '/dashboard', name: 'Dashboard' },
-  { path: '/canvas', name: 'Canvas' },
   { path: '/playground', name: 'API Playground' },
   { path: '/manage-function', name: 'Internal Functions' }, // Adding the new path and name
   { path: '/logs', name: 'Logs' },
